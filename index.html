@@ -63,17 +63,45 @@
     <section id="work" class="section shell">
       <div class="section-head reveal"><div><p class="kicker">SELECTED WORK</p><h2>Evidence, not buzzwords.</h2></div><p>Projects built to answer real questions, reveal patterns, and make decisions easier.</p></div>
       <div class="projects">
-        <article class="project featured reveal">
+        <article class="project featured reveal" aria-labelledby="bankops-title">
+          <div class="project-visual bankops" style="background:linear-gradient(135deg,#0b2926 0%,#14483e 55%,#0b302b 100%);display:flex;align-items:center;justify-content:center;min-height:240px;padding:28px;">
+            <div style="width:100%;max-width:360px;color:#eafbf0;">
+              <div style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#c8f36a;margin-bottom:15px;">Digital Banking · Incident Intelligence</div>
+              <div style="font-size:clamp(24px,3vw,34px);font-weight:800;line-height:1.15;">BankOps<br>Intelligence</div>
+              <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;">
+                <span style="border:1px solid #6d998b;border-radius:24px;padding:6px 10px;font-size:12px;">54 synthetic alerts</span>
+                <span style="border:1px solid #6d998b;border-radius:24px;padding:6px 10px;font-size:12px;">Dependency analysis</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-copy">
+            <p class="num">01 / AI-ASSISTED BANKING OPERATIONS · IN DEVELOPMENT</p>
+            <h3 id="bankops-title">BankOps Intelligence</h3>
+            <p>An interactive banking operations intelligence prototype informed by my experience supporting digital banking platforms. It demonstrates synthetic incident detection, evidence-based investigation, infrastructure dependency mapping, and historical health replay.</p>
+            <ul>
+              <li>Explore incident alerts and supporting diagnostic evidence</li>
+              <li>Investigate service dependencies and potential failure domains</li>
+              <li>Try synthetic infrastructure scenarios in a public demo</li>
+            </ul>
+            <p style="font-size:.86rem;opacity:.8;">Portfolio prototype using fictional banking data. No production systems or live banking telemetry are connected.</p>
+            <div class="tags"><span>Python</span><span>Streamlit</span><span>SQLite</span><span>Banking Operations</span></div>
+            <div style="display:flex;flex-wrap:wrap;gap:18px;align-items:center;">
+              <a href="https://bankops-intelligence.streamlit.app" target="_blank" rel="noopener noreferrer">Launch live demo <b>↗</b></a>
+              <a href="https://github.com/aremuoluwaseyi/bankops-intelligence" target="_blank" rel="noopener noreferrer">View source code <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+        <article class="project reveal">
           <div class="project-visual walmart"><div class="mock"><span>Retail performance</span><strong>$6.74M</strong><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
-          <div class="project-copy"><p class="num">01 / BUSINESS INTELLIGENCE</p><h3>Walmart Retail Sales Performance</h3><p>An interactive dashboard that makes sales trends, store performance, and business KPIs easy to explore and compare.</p><ul><li>Interactive KPI reporting</li><li>Trend and store-level analysis</li><li>Decision-focused visual storytelling</li></ul><div class="tags"><span>R Shiny</span><span>Analytics</span><span>Data Visualization</span></div><a href="https://oluwaseyiaremu.shinyapps.io/Walmart_Retail_Sales_Performance_Dashboard/" target="_blank" rel="noopener">View live dashboard <b>↗</b></a></div>
+          <div class="project-copy"><p class="num">02 / BUSINESS INTELLIGENCE</p><h3>Walmart Retail Sales Performance</h3><p>An interactive dashboard that makes sales trends, store performance, and business KPIs easy to explore and compare.</p><ul><li>Interactive KPI reporting</li><li>Trend and store-level analysis</li><li>Decision-focused visual storytelling</li></ul><div class="tags"><span>R Shiny</span><span>Analytics</span><span>Data Visualization</span></div><a href="https://oluwaseyiaremu.shinyapps.io/Walmart_Retail_Sales_Performance_Dashboard/" target="_blank" rel="noopener">View live dashboard <b>↗</b></a></div>
         </article>
         <article class="project reveal">
           <div class="project-visual airbnb"><div class="map-dot d1"></div><div class="map-dot d2"></div><div class="map-dot d3"></div><div class="mini-panel"><small>MARKET SNAPSHOT</small><b>6 cities</b><span>Listings · Price · Room type</span></div></div>
-          <div class="project-copy"><p class="num">02 / MARKET ANALYTICS</p><h3>Global Airbnb Market Explorer</h3><p>A comparative view of six international cities, revealing accommodation patterns, pricing signals, and the dominance of entire-home listings.</p><div class="tags"><span>R Shiny</span><span>EDA</span><span>Geospatial</span></div><a href="https://oluwaseyiaremu.shinyapps.io/AirbnbMarketProject/" target="_blank" rel="noopener">View live dashboard <b>↗</b></a></div>
+          <div class="project-copy"><p class="num">03 / MARKET ANALYTICS</p><h3>Global Airbnb Market Explorer</h3><p>A comparative view of six international cities, revealing accommodation patterns, pricing signals, and the dominance of entire-home listings.</p><div class="tags"><span>R Shiny</span><span>EDA</span><span>Geospatial</span></div><a href="https://oluwaseyiaremu.shinyapps.io/AirbnbMarketProject/" target="_blank" rel="noopener">View live dashboard <b>↗</b></a></div>
         </article>
         <article class="project reveal">
           <div class="project-visual bicycle"><svg viewBox="0 0 500 220" role="img" aria-label="Accident trend chart"><path d="M20 180 C90 155,110 85,170 125 S260 185,310 92 S405 72,480 28" fill="none" stroke="#ffcd64" stroke-width="6"/><path d="M20 180 C90 155,110 85,170 125 S260 185,310 92 S405 72,480 28 L480 210 L20 210Z" fill="url(#g)" opacity=".22"/><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffcd64"/><stop offset="1" stop-color="#ffcd64" stop-opacity="0"/></linearGradient></defs></svg><span>Volume & severity over time</span></div>
-          <div class="project-copy"><p class="num">03 / SAFETY ANALYTICS</p><h3>Bicycle Accident Exploration</h3><p>An interactive analysis of accident volume and severity, designed to help audiences identify patterns across time and rider characteristics.</p><div class="tags"><span>R Shiny</span><span>Data Cleaning</span><span>Interactive Analysis</span></div><a href="https://oluwaseyiaremu.shinyapps.io/Bicycleaccidentsexploration/" target="_blank" rel="noopener">View live dashboard <b>↗</b></a></div>
+          <div class="project-copy"><p class="num">04 / SAFETY ANALYTICS</p><h3>Bicycle Accident Exploration</h3><p>An interactive analysis of accident volume and severity, designed to help audiences identify patterns across time and rider characteristics.</p><div class="tags"><span>R Shiny</span><span>Data Cleaning</span><span>Interactive Analysis</span></div><a href="https://oluwaseyiaremu.shinyapps.io/Bicycleaccidentsexploration/" target="_blank" rel="noopener">View live dashboard <b>↗</b></a></div>
         </article>
       </div>
       <div class="case-method reveal">
